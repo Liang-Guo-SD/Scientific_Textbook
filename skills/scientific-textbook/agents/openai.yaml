@@ -1,0 +1,7 @@
+interface:
+  display_name: "Scientific Textbook Engineering"
+  short_description: "Build rigorous textbooks through guided inquiry"
+  default_prompt: "Use $scientific-textbook to help me design, write, review, or resume a rigorous textbook, asking focused questions when key information is missing."
+
+policy:
+  allow_implicit_invocation: true

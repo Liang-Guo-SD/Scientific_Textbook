@@ -1,0 +1,10 @@
+{
+  "name": "scientific-textbook",
+  "displayName": "Scientific Textbook Engineering",
+  "description": "Design, write, review, and resume rigorous scientific and technical textbooks through staged inquiry, persistent project harnesses, evidence profiles, source controls, and quality gates. Claude compatibility is experimental; the canonical skill is Codex-first.",
+  "author": {
+    "name": "Liang Guo",
+    "email": "chengmai921@gmail.com"
+  },
+  "category": "writing"
+}
