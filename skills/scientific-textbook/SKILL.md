@@ -1,6 +1,6 @@
 ---
 name: scientific-textbook
-description: Engineer, write, review, and resume rigorous scientific, mathematical, technical, or educational books using a persistent project harness. Use when Codex needs to initialize or migrate a textbook project; design a capability-based curriculum and prerequisite graph; draft or revise chapters; manage notation, glossary, evidence, experiments, datasets, learner artifacts, reviews, and release status; validate continuity across sessions; or continue a long-form book from CODEX.md, PROGRESS.md, or RESUME.md.
+description: Use when designing, writing, reviewing, or resuming a scientific, mathematical, computational, or technical textbook; revising chapters with artificial sentence patterns, excessive detail, or confusing branches; or maintaining a book's curriculum, evidence, notation, and project continuity.
 ---
 
 # Scientific Textbook Engineering
@@ -16,6 +16,7 @@ Optimize for these outcomes:
 3. Examples, proofs, data, or experiments provide inspectable evidence rather than decoration.
 4. Another agent can resume from project files without private chat context.
 5. Completion means that declared quality gates passed; prose existence is insufficient.
+6. The learner can follow the central explanation, reconstruct its reasoning, and recognize its limits without decoding the author's working records.
 
 The skill structures authoring and review; it does not certify scientific truth. Require suitable sources, tools, and human subject-matter review for publication, especially in high-stakes or regulated domains.
 
@@ -35,9 +36,9 @@ Use staged questions to uncover consequential assumptions without turning initia
 
 Before editing, inspect the project and select one phase:
 
-- **Initialize:** no session brief exists, or the user requests a new textbook. Read `references/init-interview.md` and `references/harness-files.md`.
+- **Initialize:** the user requests a new textbook, or a book project needs its initial session brief. A supplied-passage edit goes directly to writing/revision. Read `references/init-interview.md` and `references/harness-files.md` for initialization.
 - **Architect:** scope or sequence is unsettled, chapters are overloaded, or prerequisites conflict. Read `references/project-profiles.md`.
-- **Write or resume:** a target chapter is planned or partially written. Read `references/chapter-writing.md`.
+- **Write, revise, or resume:** a target passage is planned, drafted, or difficult to follow. Read `references/chapter-writing.md` and `references/reader-centered-writing.md`. A supplied passage can be edited directly within the requested scope; it does not require initializing a book harness.
 - **Review or release:** the user asks for assessment, completion, or publication readiness. Read `references/review-and-release.md`.
 - **Migrate:** an older nine-file or fixed-template harness exists. Read `references/migration.md`; preserve authored content and historical decisions.
 
@@ -67,7 +68,7 @@ Respect the project's declared authority order. If none exists, use:
 6. `STYLE_GUIDE.md` and `QUALITY_GATES.md`;
 7. `PROGRESS.md` for current state.
 
-Before changing a chapter, read:
+For an existing book project, before changing a chapter, read:
 
 1. `CODEX.md`, or legacy `CLAUDE.md` only when `CODEX.md` is absent;
 2. `PROGRESS.md` and the target chapter contract;
@@ -89,7 +90,9 @@ Inspect existing changes before editing. Preserve unrelated user work.
 
 ## Chapter Rules
 
-Use the learning functions in `references/chapter-writing.md`; do not force an exact heading count unless the project's style guide explicitly locks one.
+Use the learning functions in `references/chapter-writing.md` across the declared teaching unit. Read `references/reader-centered-writing.md` for drafting and substantive revision. Give each passage a clear question and a connected explanation; introduce the details needed to understand that explanation before developing secondary cases. Preserve consequential qualifications beside their claims.
+
+Keep authoring records in the project files. Present sources, assumptions, uncertainty, and reproducibility details in forms the learner can use. Follow the project's heading convention without turning every passage into the same checklist.
 
 Always:
 
@@ -106,7 +109,7 @@ Running examples are optional instruments, not universal constraints. When used,
 
 ## Evidence and Execution
 
-Match evidence to the claim:
+Match evidence to the claim. The following is an evidence relationship, not a compulsory paragraph or section sequence:
 
 ```text
 definition or mechanism -> derivation or controlled case -> contrasting case
@@ -146,6 +149,7 @@ Never edit an authoritative status merely to silence a validator. Fix the underl
 - `references/harness-files.md` — core and optional harness templates.
 - `references/project-profiles.md` — profile selection, evidence ladders, and profile-specific artifacts.
 - `references/chapter-writing.md` — chapter contract and required learning functions.
+- `references/reader-centered-writing.md` — clear narrative, detail selection, terminology, sentence patterns, and meaning-preserving revision.
 - `references/source-integrity.md` — research, citation, evidence, safety, and expert-review boundaries.
 - `references/review-and-release.md` — MECE quality gates, review roles, and completion transitions.
 - `references/migration.md` — migration from legacy fixed-template projects.

@@ -22,6 +22,14 @@ For each material claim, record enough information to recover the source and ver
 
 Classify material statements as established definition or result, sourced empirical observation, interpretation, modeling choice, recommendation, or research hypothesis. Match language strength to evidence strength.
 
+## Presenting evidence to the learner
+
+Keep detailed claim-to-source mappings and review statuses in the authoring records. In the chapter, use intelligible citations, methods, captions, and ordinary language that communicates the result's evidence status. A simulation label or internal identifier classifies a statement; it does not substantiate the claim by itself.
+
+An explicit scope statement may govern a continuous passage. Repeat the relevant evidence status, population, units, and denominator for stand-alone tables, figures, summaries, or changed scope. Keep any qualification whose removal would strengthen or distort the claim at its point of use. Consolidating repeated caveats must not hide a material limitation in a distant appendix.
+
+Before shortening a result, check what was actually measured or calculated and which inference follows. Rescaling recorded quantities does not establish the result of rerunning an experiment under changed conditions. Failing a chosen target does not necessarily mean an effect is absent. Resolve source inconsistencies or record the unresolved issue separately from stylistic improvement.
+
 ## High-stakes boundary
 
 For medical, clinical, safety-critical, legal, regulated, or operational guidance, require current authoritative sources and qualified human review. State jurisdiction, population, intended educational use, and non-applicability boundaries. The skill may organize evidence but must not claim certification or replace professional judgment.

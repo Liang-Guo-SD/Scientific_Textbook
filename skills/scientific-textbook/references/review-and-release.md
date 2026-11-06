@@ -20,6 +20,7 @@ Apply gates independently. Passing one gate does not imply another.
 
 ### Pedagogical integrity
 
+- Check the learning functions across the teaching unit declared in the existing chapter/capability contract. Linked fulfillment is acceptable for transitional or reference material; flag missing coverage or unjustified omissions. Do not require the same visible shell in every passage.
 - Objectives are observable and prerequisites are safe.
 - Diagnostics have repair routes.
 - Evidence applications expose reasoning and support transfer.
@@ -28,8 +29,14 @@ Apply gates independently. Passing one gate does not imply another.
 
 ### Editorial integrity
 
+- Apply `reader-centered-writing.md` to substantive prose review. The main question, explanatory sequence, and consequential result remain identifiable without following optional branches.
+- Necessary definitions, relationships, and qualifications appear at the reader's point of need. Secondary cases have useful destinations and clear selection conditions when they affect a decision.
+- Sentences name their relevant objects and actions. Audit vocabulary, invented labels, rhetorical framing, repeated caveat endings, and excessive emphasis do not displace explanation.
+- Compare revised passages with their source for quantities, units, denominators, comparison groups, conditions, negation, uncertainty, attribution, causal strength, and completion status. Resolve or flag substantive errors before accepting a style revision.
 - Heading hierarchy, title convention, cross-references, terminology, figures, tables, citations, and chapter structure follow the style guide.
 - The chapter does not silently depend on later material.
+
+Use a concrete comprehension task in review: explain the main result, reconstruct a key inference, identify its evidence and governing limit, or apply it to a changed case. A routine model walkthrough can expose missing information; record who performed the check, its limits, and any obstruction found. Require a human-reader trial when the project's quality gates call for one; if that required trial is unavailable, keep its gate unresolved. A model walkthrough is not a completed human-reader trial. Keep findings in review records; do not append a compulsory editorial checklist or score to the chapter.
 
 ## Profile-specific gates
 

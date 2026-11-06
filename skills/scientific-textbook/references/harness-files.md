@@ -20,6 +20,8 @@ Record stable chapter IDs, titles, primary capabilities, and status. Prefer `pla
 
 Record heading hierarchy, title convention, voice, notation, definitions, theorem/proof format, figures, tables, citations, code, exercises, and profile-specific presentation rules. Define required learning functions; lock exact headings only when consistency justifies the rigidity.
 
+Record the reader's expected vocabulary, how new terms and abbreviations are introduced, how shared evidence scope is presented, and where optional detail and authoring records belong. Use `reader-centered-writing.md` to guide narrative and sentence editing. Preserve teaching-unit decisions in the existing chapter/capability contracts; keep review findings in existing review records rather than creating another tracking system.
+
 ### `CODEX.md`
 
 Keep a concise session brief containing project identity, authority order, startup sequence, prohibited shortcuts, validation commands, and current high-level status. Link to authoritative files instead of duplicating them.

@@ -2,12 +2,15 @@
 
 Use this reference when planning, drafting, resuming, or revising a chapter.
 
+For an isolated excerpt, use the supplied learner, question, and editing scope. Treat it as part of a larger teaching unit unless the user requests a complete stand-alone unit. Write or revise the requested passage; add diagnostics, exercises, or other chapter functions only when they belong to that passage's task.
+
 ## Contract before prose
 
 For substantial projects, define these fields before drafting:
 
 - stable chapter ID and title;
 - primary learner capability;
+- the coherent teaching unit in which its learning functions are fulfilled, normally this chapter;
 - observable learning objectives;
 - prerequisites and explicit non-prerequisites;
 - scope exclusions and previewed concepts;
@@ -22,7 +25,9 @@ At the contract boundary, ask focused questions when the author has not determin
 
 ## Required learning functions
 
-Every chapter must perform the following functions. Headings and order may vary according to the style guide.
+Fulfill the following functions across the teaching unit identified in the existing chapter/capability contract. Normally that unit is a chapter. A short transition, subsection, reference page, or appendix can point to functions supplied elsewhere in the unit instead of reproducing a full chapter shell. Make that location clear in the existing contract; justify any inapplicable function there. Review coverage across the same unit. Flexible placement does not remove diagnostic, practice, or mastery responsibilities.
+
+These are learning functions, not compulsory visible headings. Their order and emphasis follow the explanation and the project's style guide.
 
 1. **Orientation:** state the practical or intellectual question, observable objectives, prerequisites, and scope.
 2. **Entry diagnostic and repair:** reveal missing prerequisites and point to a concrete repair route. A zero-foundation first chapter may use the chapter itself as the repair route.
@@ -35,6 +40,12 @@ Every chapter must perform the following functions. Headings and order may vary 
 9. **Connection:** summarize what the learner can now do, what remains unsupported, and the next capability.
 
 Executable or empirical chapters must integrate their learner workflow into these functions; do not append an unexplained code dump or dataset mention.
+
+## Explanatory sequence and detail
+
+Read `reader-centered-writing.md` before drafting or substantive revision. Choose the passage's question and the result the reader needs to reach. Develop the needed model and reasoning before introducing secondary cases. Keep conditions that change the conclusion at the point of use; give optional refinements a named destination. A complete concept inventory is not a readable chapter outline.
+
+During revision, remove repetitive framing and audit language by stating the concrete scientific meaning. Check whether sentence simplification changes the claim. Preserve stable terminology and useful formalism. If a source leaves a logical or evidential gap, identify or resolve it rather than disguising it with fluent prose.
 
 ## Formal and scientific discipline
 
